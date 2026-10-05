@@ -34,7 +34,6 @@ export function useLoginSubmit() {
             localStorage.setItem('accessToken', data.accessToken)
             setUser(data)
             dispatch(setCredentials({userProfile: data, accessToken: data.accessToken}))
-            console.log('Login successful', data)
         } catch(err) {
             if(err instanceof Error) {
                 setError(err.message)
