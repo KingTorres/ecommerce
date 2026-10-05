@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename="/khel-ecommerce/">
       <div className='w-dvw flex flex-col h-dvh'>
         <div className='flex flex-col h-[100%] w-[100%] body-wrapper'>
           {
