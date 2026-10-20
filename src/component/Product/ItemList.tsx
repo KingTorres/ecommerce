@@ -95,7 +95,7 @@ const ItemList = () => {
         </div>
         {
             showPreview &&
-            <div className='flex items-center align-center justify-center fixed top-0 z-1 backdrop-blur-md bg-[#dbdbdb00] h-full w-full'>
+            <div className='flex items-center align-center justify-center fixed top-0 left-0 z-1 backdrop-blur-md bg-[#dbdbdb00] h-full w-full'>
                 <div className='max-w-70 bg-[#f9f9f9] flex justify-center items-center py-2 px-4 rounded-xl flex flex-col w-fit drop-shadow-lg'>
                     <div className='aspect-square w-50'>
                         <img className='w-[100%] aspect-square' src={previewItem?.thumbnail} alt="previewItem?.previewTitle" />
