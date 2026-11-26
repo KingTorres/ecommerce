@@ -1,5 +1,5 @@
 import { useLoginSubmit } from '../../utils/LoginData'
-import loginBG from "../../assets/img/loginBG.jpg"
+// import loginBG from "../../assets/img/loginBG.jpg"
 const Login = () => { 
     const {
         setUsername,
