@@ -30,8 +30,8 @@ const Login = () => {
             </div>
         </div>
         <div className='pt-2 min-h-9 text-[#ff0000] z-1'>{error && error}</div>
-        <div className='h-full w-full absolute'>
-            <img className='brightness-95 h-[100%] w-[100%] object-cover' src={loginBG} alt="Background" />
+        <div className='h-full w-full absolute bg-gradient-to-b from-blue-300 to-gray-800'>
+            {/* <img className='brightness-95 h-[100%] w-[100%] object-cover' src={loginBG} alt="Background" /> */}
         </div>
     </div>
         
